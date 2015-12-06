@@ -1,0 +1,19 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:style/Theme.Material.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/actionBar</item>
+    </style>
+
+
+    <style name="actionBar" parent="android:style/Widget.Material.Light.ActionBar">
+        <item name="android:background">#2aa4cd</item>
+        <item name="android:titleTextStyle">@style/actionBar1</item>
+    </style>
+
+    <style name="actionBar1" parent="android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+</resources>
+
+
